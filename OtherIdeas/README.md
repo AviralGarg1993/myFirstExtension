@@ -55,7 +55,7 @@ Added features X, Y, and Z. -->
 
 -----------------------------------------------------------------------------------------------------------
 [1]: https://medium.com/@steveamaza/how-to-write-a-proper-git-commit-message-e028865e5791
-[2]: ../Images/ImagesForIdeas/CommitMessageGenerator/1_Ideation.png
+[2]: CommitMsgGen/resources/img/1_ideation.png
 
 <!-- ## Working with Markdown
 
