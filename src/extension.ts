@@ -31,8 +31,19 @@ export function activate(context: vscode.ExtensionContext) {
     }
   );
 
-  context.subscriptions.push(disposable);
-  context.subscriptions.push(disposableShowTime);
+  let disposableShowTaskUnfinishedWarn = vscode.commands.registerCommand(
+    "extension.showTaskUnfinishedWarn",
+    () => {
+      // Display a message box to the user
+      vscode.window.showWarningMessage("Current task is unfinished!");
+    }
+  );
+
+  context.subscriptions.push(
+    disposable,
+    disposableShowTime,
+    disposableShowTaskUnfinishedWarn
+  );
 }
 
 // this method is called when your extension is deactivated

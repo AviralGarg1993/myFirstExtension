@@ -4,7 +4,11 @@
 
 ## 22 March 2019
 
-### **Req_3**: + **cmd** to display current-time in info-msg
+### **Req_4**: + cmd to display "Current task is unfinished" in warning-msg
+
+same as Req_3 except for usage of `showWarningMessage()` in lieu of `showInformationMessage()`
+
+### **Req_3**: + cmd to display current-time in info-msg
 
 |   #   | Tasks                      | File           | Section            | Purpose                           |
 | :---: | -------------------------- | -------------- | ------------------ | --------------------------------- |

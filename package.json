@@ -11,7 +11,8 @@
   ],
   "activationEvents": [
     "onCommand:extension.helloWorld",
-    "onCommand:extension.showTime"
+    "onCommand:extension.showTime",
+    "onCommand:extension.showTaskUnfinishedWarn"
   ],
   "main": "./out/extension.js",
   "contributes": {
@@ -23,6 +24,10 @@
       {
         "command": "extension.showTime",
         "title": "Show Time"
+      },
+      {
+        "command": "extension.showTaskUnfinishedWarn",
+        "title": "Show Task Unfinished Warning"
       }
     ]
   },
