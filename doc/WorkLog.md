@@ -10,12 +10,12 @@ same as Req_3 except for usage of `showWarningMessage()` in lieu of `showInforma
 
 ### **Req_3**: + cmd to display current-time in info-msg
 
-|   #   | Tasks                      | File           | Section            | Purpose                           |
-| :---: | -------------------------- | -------------- | ------------------ | --------------------------------- |
-|   1   | Declare Activation Event   | `package.json` | `activationEvents` | activate extn when cmd is run     |
-|   2   | Declare Contribution Point | `package.json` | `contributes`      | show cmd in Command Pallete       |
-|   3   | Register & implement       | `extension.ts` | `activate`         | implementation                    |
-|   4   | Dispose                    | `extension.ts` | `activate`         | dispose cmd when extn deactivates |
+|   #   | Tasks                      | File           | Section            | Purpose                             |
+| :---: | -------------------------- | -------------- | ------------------ | ----------------------------------- |
+|   1   | Declare Activation Event   | `package.json` | `activationEvents` | activate extn when cmd is run       |
+|   2   | Declare Contribution Point | `package.json` | `contributes`      | cmd availability in Command Pallete |
+|   3   | Register & implement       | `extension.ts` | `activate`         | bind f(n) to cmdID + implementation |
+|   4   | Dispose                    | `extension.ts` | `activate`         | dispose cmd when extn deactivates   |
 
 ---
 
