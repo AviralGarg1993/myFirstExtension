@@ -1,7 +1,7 @@
 {
   "name": "myfirstextension",
   "displayName": "myFirstExtension",
-  "description": "",
+  "description": "Aviral's first vsCode Extension",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.32.0"
